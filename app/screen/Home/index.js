@@ -18,9 +18,7 @@ import EntertainmentNews from '../../components/EntertainmentNews';
   const entertainmentNews = data.filter(item => item.category === 'entertainment')
   return (
     <Screen>
-      <View>
-        <Text>jsjgkig</Text>
-      </View>
+      
       <SearchBar/>
       <FeaturedNews item={{
       id: '8',
