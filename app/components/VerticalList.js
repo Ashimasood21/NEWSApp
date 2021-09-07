@@ -11,6 +11,7 @@ const VerticalList = ({ title, data }) => {
          <View style={styles.container}>
          {data.map(item => <FlatCard item={item} key={item.id}/>)}
          </View >
+         
     </View>
 
   )

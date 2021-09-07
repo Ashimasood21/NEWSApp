@@ -1,9 +1,39 @@
+// import React from 'react';
+// import { Text, View, TouchableOpacity } from 'react-native';
+
+// const Login = ({navigation}) => {
+//     const Email = () => {
+//         navigation.navigate('Signup')
+//     }
+//     return (
+//         <View style={{ backgroundColor: '#ffe0cc', height: '100%', width: '100%' }}>
+//             <TouchableOpacity>
+//                 <View style={{
+//                     marginTop: '10%', justifyContent: 'center', alignItems: 'center', borderWidth: 2,
+//                     backgroundColor: '#e65c00', borderRadius: 10, marginLeft: '10%', marginRight: '10%', padding: 6
+//                 }}>
+//                     <Text style={{ fontSize: 20 }}>Login with Facebook</Text>
+//                 </View>
+//             </TouchableOpacity>
+//             <TouchableOpacity onPress={() => Email()}>
+//                 <View style={{
+//                     marginTop: '10%', justifyContent: 'center', alignItems: 'center', borderWidth: 2,
+//                     backgroundColor: '#e65c00', borderRadius: 10, marginLeft: '10%', marginRight: '10%', padding: 6
+//                 }}>
+//                     <Text style={{ fontSize: 20 }}>Login with Email</Text>
+//                 </View>
+//             </TouchableOpacity>
+//         </View>
+//     )
+// }
+// export default Login;
+
 import React from 'react';
 import { Text, View, TouchableOpacity } from 'react-native';
 
 const Login = ({navigation}) => {
     const Mobile = () => {
-        navigation.navigate('Home')
+        navigation.navigate('Signup')
     }
     return (
         <View style={{ backgroundColor: '#ffe0cc', height: '100%', width: '100%' }}>
@@ -20,7 +50,7 @@ const Login = ({navigation}) => {
                     marginTop: '10%', justifyContent: 'center', alignItems: 'center', borderWidth: 2,
                     backgroundColor: '#e65c00', borderRadius: 10, marginLeft: '10%', marginRight: '10%', padding: 6
                 }}>
-                    <Text style={{ fontSize: 20 }}>Login with Mobile</Text>
+                    <Text style={{ fontSize: 20 }}>Login with Email</Text>
                 </View>
             </TouchableOpacity>
         </View>

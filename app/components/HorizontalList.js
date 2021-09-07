@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, StyleSheet, FlatList } from 'react-native';
+import { View, StyleSheet, FlatList,Text, Button } from 'react-native';
 import Title from './Title';
 import SmallCard from './SmallCard';
 
@@ -16,8 +16,11 @@ const HorizontalList = ({ title, data }) => {
           renderItem={({ item }) => (
             <SmallCard item={item}
             />
-          )}
+            )}
         />
+<View>
+  <Button title='view more'></Button>
+</View>
         </View>
       
     </>
